@@ -48,14 +48,15 @@ body {
   max-width: 70%;
 }
 
-.page-subtitle {
+.page-title {
   font-size: 72px;
   font-family: $font-header;
-  margin: 0 auto;
+  margin: 0;
+  display: inline;
 }
 
-.page-title {
-  margin: 0 auto;
+.page-subtitle {
+  margin: 0;
   font-size: 20px;
 }
 
@@ -70,4 +71,8 @@ body {
   text-decoration: none;
   cursor: pointer;
   border: 2px solid #000;
+}
+
+.splash a {
+  color: #000;
 }
