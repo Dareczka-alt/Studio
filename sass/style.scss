@@ -9,10 +9,6 @@ body {
   color: #000;
 }
 
-.nav-container {
-  display: flex;
-}
-
 /*Navigation*/
 
 .navigation ul {
@@ -22,17 +18,21 @@ body {
 .navigation a {
   text-decoration: none;
 }
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
 
 .menu-item {
   flex-direction: row;
-  justify-content: flex-end;
+  padding: 10px 100px;
 }
 
 /*Splash*/
 
 .splash {
   min-height: 500px;
-  display: flex;
   background-image: url(https://i.postimg.cc/VNkF8WVq/pexels-josh-hild-16664514.jpg);
   height: 100vh;
   background-position: center center;
