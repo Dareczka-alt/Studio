@@ -9,12 +9,15 @@ body {
   color: #000;
 }
 
+.container {
+  display: flex;
+}
+
 /*Navigation*/
 
-.navigation {
-  display: inline-block;
-  top: 10px;
-  right: 50px;
+.menu {
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 .navigation ul {
