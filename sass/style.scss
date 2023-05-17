@@ -11,19 +11,21 @@ body {
 
 /*Navigation*/
 
-.navigation {
-  padding: 12px 0;
+.navigation p {
+  text-align: left;
+  display: inline;
 }
 
 .navigation ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
+  text-align: right;
 }
 
 .navigation li {
   display: inline-block;
-  margin: 0 36px 0 0;
+  margin: 0 0 0 36px;
   position: relative;
 }
 
