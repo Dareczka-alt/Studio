@@ -48,7 +48,7 @@ body {
   max-width: 70%;
 }
 
-.page-title {
+.page-subtitle {
   font-size: 72px;
   word-spacing: -24px;
   font-weight: 700;
@@ -57,7 +57,7 @@ body {
   margin: 0;
 }
 
-.page-subtitle {
+.page-title {
   margin: 24px 0;
   font-weight: 300;
   font-size: 20px;
@@ -74,4 +74,5 @@ body {
   text-decoration: none;
   cursor: pointer;
   border: 2px solid #000;
+  color: #000;
 }
