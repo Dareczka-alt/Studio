@@ -6,6 +6,7 @@ $font-text: "Poppins", sans-serif;
 
 body {
   font-family: $font-text;
+  color: #000;
 }
 
 /*Navigation*/
@@ -28,7 +29,6 @@ body {
 
 .navigation a {
   text-decoration: none;
-  color: #000;
 }
 
 /*Splash*/
@@ -50,15 +50,12 @@ body {
 
 .page-subtitle {
   font-size: 72px;
-  font-weight: 700;
-  line-height: 1.2;
   font-family: $font-header;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .page-title {
-  margin: 24px 0;
-  font-weight: 300;
+  margin: 0 auto;
   font-size: 20px;
 }
 
@@ -73,5 +70,4 @@ body {
   text-decoration: none;
   cursor: pointer;
   border: 2px solid #000;
-  color: #000;
 }
