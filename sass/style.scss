@@ -45,25 +45,23 @@ body {
 
 .splash-inner {
   margin: auto;
-  max-width: 70%;
 }
 
 .page-title {
   font-size: 72px;
   font-family: $font-header;
-  margin: 0;
-  display: inline;
+  margin: auto;
 }
 
 .page-subtitle {
-  margin: 0;
+  margin: auto;
   font-size: 20px;
 }
 
 .btn {
   display: inline-block;
   min-width: 160px;
-  margin: 24px auto 0 auto;
+  margin: auto;
   padding: 10px;
   border-radius: 5px;
   font-size: 20px;
