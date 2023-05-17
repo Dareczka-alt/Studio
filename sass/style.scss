@@ -15,17 +15,17 @@ body {
 
 /*Navigation*/
 
-.menu {
-  flex-direction: row;
-  justify-content: flex-end;
-}
-
 .navigation ul {
   list-style-type: none;
 }
 
 .navigation a {
   text-decoration: none;
+}
+
+.menu {
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 /*Splash*/
