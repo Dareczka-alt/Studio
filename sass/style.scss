@@ -11,22 +11,14 @@ body {
 
 /*Navigation*/
 
-.splash {
-  position: relative;
-}
-
 .navigation {
-  position: absolute;
+  display: inline-block;
   top: 10px;
   right: 50px;
 }
 
 .navigation ul {
   list-style-type: none;
-}
-
-.navigation li {
-  display: inline;
 }
 
 .navigation a {
